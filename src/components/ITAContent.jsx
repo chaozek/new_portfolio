@@ -17,10 +17,9 @@ const ITAContent = () => {
         <br />
         You can find deeper information on their websites
         <a href="https://www.it-absolvent.cz/" target="_blank" rel="noreferrer">
-          {" "}
           IT-ABSOLVENT
-        </a>{" "}
-        &{" "}
+        </a>
+        &
         <a href="https://www.smartbrains.cz/" target="_blank" rel="noreferrer">
           SMART BRAINS
         </a>
@@ -47,7 +46,13 @@ const ITAContent = () => {
             </a>
             .
           </Text>
-          <Button>View Page</Button>
+          <a
+            href="https://portfolio-eta-sandy.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Button>View Page</Button>
+          </a>
         </Right>
       </Project>
     </Container>
