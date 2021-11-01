@@ -17,11 +17,13 @@ const ITAContent = () => {
         <br />
         You can find deeper information on their websites
         <a href="https://www.it-absolvent.cz/" target="_blank" rel="noreferrer">
-          IT-ABSOLVENT
+          {" "}
+          IT-ABSOLVENT{" "}
         </a>
         &
         <a href="https://www.smartbrains.cz/" target="_blank" rel="noreferrer">
-          SMART BRAINS
+          {" "}
+          SMART BRAINS{" "}
         </a>
         .
       </Text>
