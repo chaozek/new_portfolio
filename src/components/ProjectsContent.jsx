@@ -4,6 +4,7 @@ import React from "react";
 import adp from "../imgs/adp.png";
 import plus from "../imgs/plus.png";
 import styled from "styled-components";
+import toprecipes from "../imgs/toprecipes.png";
 
 const ProjectsContent = () => {
   return (
@@ -25,7 +26,30 @@ const ProjectsContent = () => {
           <Link to="/ita"> ITA absolvent</Link> page.
         </strong>
       </Text>
-
+      <Project>
+        <Left>
+          <Image src={toprecipes} />
+        </Left>
+        <Right>
+          <TextHeader>Recipe App</TextHeader>
+          <Text>
+            This <strong>full stack MERN CRUD app </strong> was build with
+            technologies as:{" "}
+            <strong>
+              Redux ToolKit, MongoDB, Express, NodeJS, Firebase...
+            </strong>
+            . Backend server & frontend is deployed via Vercel.
+          </Text>
+          <Text>(still working on it!)</Text>
+          <a
+            href="https://toprecepty.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Button>Visit Page</Button>
+          </a>
+        </Right>
+      </Project>
       <Project>
         <Left>
           <Image src={plus} />
