@@ -5,6 +5,7 @@ import adp from "../imgs/adp.png";
 import plus from "../imgs/plus.png";
 import styled from "styled-components";
 import toprecipes from "../imgs/toprecipes.png";
+import trips from "../imgs/trips.png";
 
 const ProjectsContent = () => {
   return (
@@ -21,11 +22,13 @@ const ProjectsContent = () => {
         <strong>
           You can see there is not much to show. I&apos;m trying to keep this
           page recent as possible. Currently I&apos;m doing some updates with
-          more skills. Don&apos;t hasitate to message me so I can send you what
-          you wish. For now, please, check out
+          more skills I&apos;m gaining on apps which are not listed here .
+          Don&apos;t hasitate to message me so I can send you what you wish.
+          Don&apos;t forget to also check out
           <Link to="/ita"> ITA absolvent</Link> page.
         </strong>
       </Text>
+
       <Project>
         <Left>
           <Image src={toprecipes} />
@@ -36,7 +39,7 @@ const ProjectsContent = () => {
             This <strong>full stack MERN CRUD app </strong> was build with
             technologies as:{" "}
             <strong>
-              Redux ToolKit, MongoDB, Express, NodeJS, Firebase...
+              React, Redux ToolKit, MongoDB, Express, NodeJS, Firebase...
             </strong>
             . Backend server & frontend is deployed via Vercel.
           </Text>
@@ -46,6 +49,24 @@ const ProjectsContent = () => {
             target="_blank"
             rel="noreferrer"
           >
+            <Button>Visit Page</Button>
+          </a>
+        </Right>
+      </Project>
+      <Project>
+        <Left>
+          <Image src={trips} />
+        </Left>
+        <Right>
+          <TextHeader>Trips App</TextHeader>
+          <Text>
+            This app was build with technologies as:
+            <strong>
+              TypeScript, Context API, React, Styled Components...
+            </strong>
+            . Frontend is deployed via Vercel.
+          </Text>
+          <a href="https://trippk.vercel.app/" target="_blank" rel="noreferrer">
             <Button>Visit Page</Button>
           </a>
         </Right>
