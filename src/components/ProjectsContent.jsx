@@ -41,11 +41,11 @@ const ProjectsContent = () => {
             <strong>
               React, Redux ToolKit, MongoDB, Express, NodeJS, Firebase...
             </strong>
-            . Backend server & frontend is deployed via Vercel.
+            . Backend server & frontend is deployed via Heroku.
           </Text>
           <Text>(still working on it!)</Text>
           <a
-            href="https://toprecepty.vercel.app/"
+            href="https://toprecepty.herokuapp.com/"
             target="_blank"
             rel="noreferrer"
           >
